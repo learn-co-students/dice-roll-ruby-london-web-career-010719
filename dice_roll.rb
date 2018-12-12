@@ -2,6 +2,20 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+#using an array first method
 def roll
-  # code goes here
+  dice = [ 1,2,3,4,5,6 ]
+  dice.sample
 end
+
+#using range
+# def roll
+#   rand(1..6)
+# end
+
+#using array second method
+# def roll
+#   dice = [ 1,2,3,4,5,6 ]
+#   dice.shuffle.first
+# end
+
