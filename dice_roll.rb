@@ -6,8 +6,7 @@ def roll
 
   allamaraine = [1,2,3,4,5,6]
 
-  i = rand(0..5)
-  result = allamaraine[i]
+  result = allamaraine.sample
 
   return result
 end
